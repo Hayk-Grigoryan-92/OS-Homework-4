@@ -1,0 +1,22 @@
+.inputComponent3{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+    gap: 20px;
+    margin-top: 50px;
+
+    input{
+        width: 120px;
+        height: 25px;
+    }
+
+    button{
+        width: 60px;
+        height: 25px;
+    }
+}
+
+.P-error {
+    color: red;
+}

@@ -1,0 +1,25 @@
+.tabsList{
+    display: flex;
+    max-width: 700px;
+    width: 100%;
+    background-color: rgb(168, 232, 148);
+    justify-content: space-around;
+    height: 120px;
+    margin:50px auto;
+    align-items: center;
+
+    div{
+        border: 1px solid black;
+        width: 100px;
+        height: 25px;
+
+        &:hover{
+            background-color: rgb(253, 249, 225);
+        }
+    }
+}
+
+.activeTab{
+    background-color: rgb(5, 170, 5);
+    box-shadow: 5px 5px 5px;
+}
